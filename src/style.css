@@ -30,6 +30,7 @@ input {
   background: rgba(19, 35, 47, 0.9);
   padding: 40px;
   max-width: 500px;
+  width: 80vw;
   margin: 40px auto;
   border-radius: 4px;
   box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
