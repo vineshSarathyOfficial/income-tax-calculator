@@ -13,7 +13,7 @@ export default function IncomeTaxCalculator() {
   const [result, setResult] = useState(false);
   const [slab, setSlab] = useState('Nill');
   const [calculateValue, setCalculateValue] = useState(0);
-
+//  for checking
   const validateValue = (value) => {
     const rawValue = value === undefined ? undefined : value;
     setRawValue(rawValue || '');
