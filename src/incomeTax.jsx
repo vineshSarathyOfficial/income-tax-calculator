@@ -13,7 +13,6 @@ export default function IncomeTaxCalculator() {
   const [result, setResult] = useState(false);
   const [slab, setSlab] = useState('Nill');
   const [calculateValue, setCalculateValue] = useState(0);
-//  for checking
   const validateValue = (value) => {
     const rawValue = value === undefined ? undefined : value;
     setRawValue(rawValue || '');
@@ -78,7 +77,7 @@ export default function IncomeTaxCalculator() {
   return (
     <div>
       <Container fluid className="parentContainer">
-        <div className="Calculator-Component">
+        <div className="Calculator-Component" style={{ width: '80vw' }}>
           <h1 style={{ textAlign: 'center' }}>Income Tax Calculator</h1>
           {!result ? (
             <div className="calculation-part">
